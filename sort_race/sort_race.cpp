@@ -18,7 +18,11 @@ void Run(string method_name, Participant p, vector<int> data);
 
 //place your method name here
 vector<int> std_sort(vector<int>);
+<<<<<<< HEAD
 vector<int> mergeSort(vector<int>);
+=======
+vector<int> quickSort(vector<int> );
+>>>>>>> origin/task2
 
 int main()
 {
@@ -27,7 +31,11 @@ int main()
     {
         auto data = GenerateData(n);
         RUN(std_sort);
+<<<<<<< HEAD
         RUN(mergeSort);
+=======
+        RUN(quickSort);
+>>>>>>> origin/task2
 		//run your method here
     }
 }
